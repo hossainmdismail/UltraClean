@@ -1,811 +1,1329 @@
 <!DOCTYPE html>
-<html data-wf-page="687fa5eeeaec53521e2b7e29" data-wf-site="687fa5eeeaec53521e2b7e3d" lang="en">
+<html
+  data-wf-page="687fa5eeeaec53521e2b7e29"
+  data-wf-site="687fa5eeeaec53521e2b7e3d"
+  lang="en"
+>
+  <head>
+    <meta charset="utf-8" />
+    <title>Ultraclean - Webflow HTML website template</title>
+    <meta
+      content="Ultraclean – A modern and professional cleaning service Webflow template designed for residential, commercial, and industrial cleaning businesses. Easy to customize and fully responsive!"
+      name="description"
+    />
+    <meta
+      content="Ultraclean - Webflow HTML website template"
+      property="og:title"
+    />
+    <meta
+      content="Ultraclean – A modern and professional cleaning service Webflow template designed for residential, commercial, and industrial cleaning businesses. Easy to customize and fully responsive!"
+      property="og:description"
+    />
+    <meta
+      content="Ultraclean - Webflow HTML website template"
+      property="twitter:title"
+    />
+    <meta
+      content="Ultraclean – A modern and professional cleaning service Webflow template designed for residential, commercial, and industrial cleaning businesses. Easy to customize and fully responsive!"
+      property="twitter:description"
+    />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        (n.className += t + "js"),
+          ("ontouchstart" in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + "touch");
+      })(window, document);
+    </script>
+    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="images/webclip.png" rel="apple-touch-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Ultraclean - Webflow HTML website template</title>
-  <meta
-    content="Ultraclean – A modern and professional cleaning service Webflow template designed for residential, commercial, and industrial cleaning businesses. Easy to customize and fully responsive!"
-    name="description">
-  <meta content="Ultraclean - Webflow HTML website template" property="og:title">
-  <meta
-    content="Ultraclean – A modern and professional cleaning service Webflow template designed for residential, commercial, and industrial cleaning businesses. Easy to customize and fully responsive!"
-    property="og:description">
-  <meta content="Ultraclean - Webflow HTML website template" property="twitter:title">
-  <meta
-    content="Ultraclean – A modern and professional cleaning service Webflow template designed for residential, commercial, and industrial cleaning businesses. Easy to customize and fully responsive!"
-    property="twitter:description">
-  <meta property="og:type" content="website">
-  <meta content="summary_large_image" name="twitter:card">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <script
-    type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
-  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="images/webclip.png" rel="apple-touch-icon">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
-
-<body>
-  <header class="header">
-    <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease"
-      role="banner" class="navbar w-nav">
-      <div class="container">
-        <div class="navbar-block">
-          <a href="index.html" class="brand w-nav-brand"><img loading="lazy" src="images/Logo.png" alt="icon"
-              class="logo-image"></a>
-          <nav role="navigation" class="nav-menu w-nav-menu">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="about.html" class="nav-link">About us</a>
-            <a href="services.html" class="nav-link">Services</a>
-            <div data-hover="true" data-delay="400" data-w-id="084b7cab-5500-32a0-f31c-bb0bf67a63a0"
-              class="header-dropdown-menu w-dropdown">
-              <div class="nav-dropdown-toggle w-dropdown-toggle">
-                <div>Pages</div>
-                <div class="icon w-icon-dropdown-toggle"></div>
+  <body>
+    <header class="header">
+      <div
+        data-animation="default"
+        data-collapse="medium"
+        data-duration="400"
+        data-easing="ease"
+        data-easing2="ease"
+        role="banner"
+        class="navbar w-nav"
+      >
+        <div class="container">
+          <div class="navbar-block">
+            <a href="index.html" class="brand w-nav-brand"
+              ><img
+                loading="lazy"
+                src="images/Logo.png"
+                alt="icon"
+                class="logo-image"
+            /></a>
+            <nav role="navigation" class="nav-menu w-nav-menu">
+              <a href="index.html" class="nav-link">Home</a>
+              <a href="about.html" class="nav-link">About us</a>
+              <a href="services.html" class="nav-link">Services</a>
+              <div
+                data-hover="true"
+                data-delay="400"
+                data-w-id="084b7cab-5500-32a0-f31c-bb0bf67a63a0"
+                class="header-dropdown-menu w-dropdown"
+              >
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div>Pages</div>
+                  <div class="icon w-icon-dropdown-toggle"></div>
+                </div>
+                <nav
+                  data-w-id="084b7cab-5500-32a0-f31c-bb0bf67a63a5"
+                  class="dropdown-list w-dropdown-list"
+                >
+                  <a
+                    href="privacy-policy.html"
+                    class="nav-dropdown-link w-dropdown-link"
+                    >Privacy Policy</a
+                  >
+                  <a
+                    href="terms-and-conditions.html"
+                    class="nav-dropdown-link w-dropdown-link"
+                    >Term of service</a
+                  >
+                  <a
+                    href="contact-us.html"
+                    class="nav-dropdown-link w-dropdown-link"
+                    >Contact</a
+                  >
+                  <a
+                    href="pricing.html"
+                    class="nav-dropdown-link w-dropdown-link"
+                    >Pricing</a
+                  >
+                  <a href="faq.html" class="nav-dropdown-link w-dropdown-link"
+                    >FAQ</a
+                  >
+                  <a href="404.html" class="nav-dropdown-link w-dropdown-link"
+                    >404</a
+                  >
+                </nav>
               </div>
-              <nav data-w-id="084b7cab-5500-32a0-f31c-bb0bf67a63a5" class="dropdown-list w-dropdown-list">
-                <a href="privacy-policy.html" class="nav-dropdown-link w-dropdown-link">Privacy Policy</a>
-                <a href="terms-and-conditions.html" class="nav-dropdown-link w-dropdown-link">Term of service</a>
-                <a href="contact-us.html" class="nav-dropdown-link w-dropdown-link">Contact</a>
-                <a href="pricing.html" class="nav-dropdown-link w-dropdown-link">Pricing</a>
-                <a href="faq.html" class="nav-dropdown-link w-dropdown-link">FAQ</a>
-                <a href="404.html" class="nav-dropdown-link w-dropdown-link">404</a>
-              </nav>
-            </div>
-            <a href="blog.html" class="nav-link">Blog</a>
-            <div class="mobile-button-wrap">
-              <a href="contact-us.html" class="button w-inline-block"><img loading="lazy" src="images/Vector.svg"
-                  alt="icon">
+              <a href="blog.html" class="nav-link">Blog</a>
+              <div class="mobile-button-wrap">
+                <a href="contact-us.html" class="button w-inline-block"
+                  ><img loading="lazy" src="images/Vector.svg" alt="icon" />
+                  <div>Call: 123 732 4849</div>
+                </a>
+              </div>
+            </nav>
+            <div class="main-button-wrap">
+              <a href="contact-us.html" class="button is-nav w-inline-block">
+                <div class="call-icon-wrap">
+                  <img
+                    loading="lazy"
+                    src="images/Vector.svg"
+                    alt="icon"
+                    class="call-icon"
+                  />
+                </div>
                 <div>Call: 123 732 4849</div>
               </a>
             </div>
-          </nav>
-          <div class="main-button-wrap">
-            <a href="contact-us.html" class="button is-nav w-inline-block">
-              <div class="call-icon-wrap"><img loading="lazy" src="images/Vector.svg" alt="icon" class="call-icon">
+            <div class="menu-button w-nav-button">
+              <div class="navbar-menu">
+                <div class="top"></div>
+                <div class="middle"></div>
+                <div class="buttom"></div>
               </div>
-              <div>Call: 123 732 4849</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-scroll-down-shadow"></div>
+    </header>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-section-layout">
+          <div class="hero-content-info-wrap">
+            <div class="hero-content-block" data-aos="fade-up">
+              <div class="text-xl font-500 letter-spacing">
+                Professional cleaning services
+              </div>
+              <div class="hero-content-wrap">
+                <div class="color-accent-dark">
+                  <h1 class="h1">The Ultimate Clean for Every Space</h1>
+                </div>
+                <div class="text-xxl letter-spacing">
+                  Our goal is to uphold superior cleanliness standards,
+                  guaranteeing your surroundings remain perfectly disinfected
+                  and healthful.
+                </div>
+                <div class="hero-buttons-block">
+                  <a
+                    data-wf--button--variant="base"
+                    href="contact-us.html"
+                    class="button w-inline-block"
+                  >
+                    <div>Make An Appointment</div>
+                  </a>
+                  <div class="hero-lightbox-wrap">
+                    <a href="#" class="lightbox-link w-inline-block w-lightbox"
+                      ><img
+                        src="images/Vector-3.svg"
+                        loading="lazy"
+                        alt="play icon"
+                      />
+                      <div class="text-lg font-weight-500">Watch Video</div>
+                      <script type="application/json" class="w-json">
+                        {
+                          "items": [
+                            {
+                              "url": "https://www.youtube.com/watch?v=setu9Ir1miY&list=PLPmnoMVpkxfj-DzMkYNf7LM3ebjwoY6b2&index=1",
+                              "originalUrl": "https://www.youtube.com/watch?v=setu9Ir1miY&list=PLPmnoMVpkxfj-DzMkYNf7LM3ebjwoY6b2&index=1",
+                              "width": 940,
+                              "height": 528,
+                              "thumbnailUrl": "https://i.ytimg.com/vi/setu9Ir1miY/hqdefault.jpg",
+                              "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fsetu9Ir1miY%3Flist%3DPLPmnoMVpkxfj-DzMkYNf7LM3ebjwoY6b2&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dsetu9Ir1miY&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fsetu9Ir1miY%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                              "type": "video"
+                            }
+                          ],
+                          "group": ""
+                        }
+                      </script>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heo-images-block" data-aos="fade-up">
+              <div class="hero-images-first-col">
+                <div class="hero-image-wrap _1st-child">
+                  <img
+                    src="images/Mask-group.webp"
+                    loading="lazy"
+                    sizes="(max-width: 1152px) 100vw, 1152px"
+                    srcset="
+                      images/Mask-group-p-500.webp  500w,
+                      images/Mask-group-p-800.webp  800w,
+                      images/Mask-group.webp       1152w
+                    "
+                    alt="hero image"
+                    class="hero-image"
+                  />
+                </div>
+                <div class="hero-customer-info-block">
+                  <div class="text-lg satisfied-text">Satisfied customers</div>
+                  <div class="hero-customer-image-wrap">
+                    <img src="images/Frame-15.png" loading="lazy" alt="" />
+                    <div class="text-lg font-weight-600 satisfied-number">
+                      100K<span class="color-primary">+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="w-node-edf2310d-900f-839e-a89b-cc9f11dfc96c-1e2b7e29"
+                class="hero-images-2nd-col"
+              >
+                <div class="hero-info-card-block">
+                  <div class="hero-support-icon">
+                    <img
+                      src="images/fi_4280518.svg"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+                  <div class="text-lg">24/7 support</div>
+                </div>
+                <div class="hero-image-wrap">
+                  <img
+                    src="images/image-removebg-preview-1.webp"
+                    loading="lazy"
+                    sizes="(max-width: 1152px) 100vw, 1152px"
+                    srcset="
+                      images/image-removebg-preview-1-p-500.webp  500w,
+                      images/image-removebg-preview-1-p-800.webp  800w,
+                      images/image-removebg-preview-1.webp       1152w
+                    "
+                    alt="hero image"
+                    class="hero-image _2nd-child"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="brands-logo-block" data-aos="fade-up">
+            <div class="text-xxl brands-logo-title">
+              Trusted by Thousand of Organizations
+            </div>
+            <div class="brands-logo-wrap">
+              <img
+                src="images/Frame-1215874301.svg"
+                loading="lazy"
+                alt="hero logo"
+                class="brand-logo"
+              /><img
+                src="images/Frame-1215874302.svg"
+                loading="lazy"
+                alt="hero logo"
+                class="brand-logo"
+              /><img
+                src="images/Frame-1215874303.svg"
+                loading="lazy"
+                alt="hero logo"
+                class="brand-logo"
+              /><img
+                src="images/Frame-1215874304.svg"
+                loading="lazy"
+                id="w-node-de8430ea-f819-7ad5-a112-20d262922a79-1e2b7e29"
+                alt="hero logo"
+                class="brand-logo"
+              /><img
+                src="images/Frame-1215874319.svg"
+                loading="lazy"
+                alt="hero logo"
+                class="brand-logo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="service-section">
+      <div class="container">
+        <div class="service-block">
+          <div class="service-heading-wrap">
+            <div class="service-title-block">
+              <h2 class="h2 team-title" data-aos="fade-right">
+                We offer a wide variety of specialized Cleaning
+              </h2>
+            </div>
+            <div class="service-description-block" data-aos="fade-left">
+              <div class="text-lg">
+                We are committed to delivering exceptional cleaning services
+                that leave your spaces sparkling clean and hygienic. Our
+                professional team uses eco-friendly products to ensure a safe
+                and healthy environment for you.
+              </div>
+            </div>
+          </div>
+          <div class="service-card-wrap">
+            <div class="service-collection-list">
+              <div class="service-collection-item" data-aos="fade-up">
+                <a
+                  href="detail_service-cards.html"
+                  class="service-card-link-block-wrapper w-inline-block"
+                >
+                  <div class="service-icon-block">
+                    <img
+                      src="images/Frame-36.webp"
+                      loading="lazy"
+                      alt=""
+                      class="service-icon"
+                    />
+                  </div>
+                  <div class="service-title-block">
+                    <h3 class="service-title">Residential Services</h3>
+                  </div>
+                  <div class="service-short-summary-block">
+                    <p class="service-short-summary">
+                      From regular housekeeping to deep cleaning, we ensure your
+                      home is always welcoming and pristine.
+                    </p>
+                  </div>
+                  <div class="service-card-divider-block"></div>
+                  <div class="service-card-button-block">
+                    <div class="service-card-button-text">Learn More</div>
+                    <div class="service-card-button-icon-block">
+                      <img
+                        src="images/Vector-5.svg"
+                        loading="lazy"
+                        alt=""
+                        class="service-card-button-icon"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="service-collection-item"
+                data-aos="fade-up"
+                data-aos-duration="800"
+              >
+                <a
+                  href="detail_service-cards.html"
+                  class="service-card-link-block-wrapper w-inline-block"
+                >
+                  <div class="service-icon-block">
+                    <img
+                      src="images/Frame-36-1.webp"
+                      loading="lazy"
+                      alt=""
+                      class="service-icon"
+                    />
+                  </div>
+                  <div class="service-title-block">
+                    <h3 class="service-title">Commercial Services</h3>
+                  </div>
+                  <div class="service-short-summary-block">
+                    <p class="service-short-summary">
+                      Keep your workplace clean and pristine with our
+                      comprehensive commercial UltraClean cleaning  services.
+                    </p>
+                  </div>
+                  <div class="service-card-divider-block"></div>
+                  <div class="service-card-button-block">
+                    <div class="service-card-button-text">Learn More</div>
+                    <div class="service-card-button-icon-block">
+                      <img
+                        src="images/Vector-5.svg"
+                        loading="lazy"
+                        alt=""
+                        class="service-card-button-icon"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="service-collection-item"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="detail_service-cards.html"
+                  class="service-card-link-block-wrapper w-inline-block"
+                >
+                  <div class="service-icon-block">
+                    <img
+                      src="images/Frame-36-2.png"
+                      loading="lazy"
+                      alt=""
+                      class="service-icon"
+                    />
+                  </div>
+                  <div class="service-title-block">
+                    <h3 class="service-title">Specialized Services</h3>
+                  </div>
+                  <div class="service-short-summary-block">
+                    <p class="service-short-summary">
+                      We offer specialized services, including carpet cleaning,
+                      window washing, and  address specific cleaning needs.
+                    </p>
+                  </div>
+                  <div class="service-card-divider-block"></div>
+                  <div class="service-card-button-block">
+                    <div class="service-card-button-text">Learn More</div>
+                    <div class="service-card-button-icon-block">
+                      <img
+                        src="images/Vector-5.svg"
+                        loading="lazy"
+                        alt=""
+                        class="service-card-button-icon"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-section padding-top-mobile-0px">
+      <div class="container">
+        <div class="about-content-wrap">
+          <div class="about-img-wrap" data-aos="fade-up">
+            <img
+              sizes="(max-width: 1228px) 100vw, 1228px"
+              srcset="
+                images/image-removebg-preview-2-1-p-500.webp   500w,
+                images/image-removebg-preview-2-1-p-800.webp   800w,
+                images/image-removebg-preview-2-1-p-1080.webp 1080w,
+                images/image-removebg-preview-2-1.webp        1228w
+              "
+              alt="about image"
+              src="images/image-removebg-preview-2-1.webp"
+              loading="lazy"
+              class="about-img"
+            />
+          </div>
+          <div class="about-content-block" data-aos="fade-up">
+            <div class="about-heading-block">
+              <div class="heading-dark">
+                <h2 class="h2">About UltraClean Solutions</h2>
+              </div>
+              <div class="text-lg">
+                At UltraClean Solutions, we are dedicated to providing top-tier
+                cleaning services that exceed your expectations. With years of
+                experience in the cleaning industry, we pride ourselves on our
+                meticulous attention.
+              </div>
+            </div>
+            <a
+              data-wf--button--variant="base"
+              href="#"
+              class="button w-inline-block"
+            >
+              <div>Learn More</div>
+            </a>
+            <div
+              class="about-stats-data"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
+              <div class="stat-count">
+                <div class="single-counter-inner-block">
+                  <div class="counter-box">
+                    <div class="counter">
+                      <div class="counter-train">
+                        <div class="counter-number">4</div>
+                        <div class="counter-number">2</div>
+                        <div class="counter-number">3</div>
+                        <div class="counter-number">4</div>
+                        <div class="counter-number">5</div>
+                        <div class="counter-number">6</div>
+                        <div class="counter-number">7</div>
+                        <div class="counter-number">8</div>
+                        <div class="counter-number">9</div>
+                        <div class="counter-number">1</div>
+                      </div>
+                      <div class="counter-train">
+                        <div class="counter-number">4</div>
+                        <div class="counter-number">9</div>
+                        <div class="counter-number">8</div>
+                        <div class="counter-number">7</div>
+                        <div class="counter-number">6</div>
+                        <div class="counter-number">5</div>
+                        <div class="counter-number">4</div>
+                        <div class="counter-number">3</div>
+                        <div class="counter-number">2</div>
+                        <div class="counter-number">1</div>
+                      </div>
+                    </div>
+                    <div class="counter">
+                      <div class="counter-train-up">
+                        <div class="counter-number">0</div>
+                        <div class="counter-number">2</div>
+                        <div class="counter-number">3</div>
+                        <div class="counter-number">4</div>
+                        <div class="counter-number">5</div>
+                        <div class="counter-number">6</div>
+                        <div class="counter-number">7</div>
+                        <div class="counter-number">8</div>
+                        <div class="counter-number">9</div>
+                        <div class="counter-number">1</div>
+                      </div>
+                      <div class="counter-train-up">
+                        <div class="counter-number">1</div>
+                        <div class="counter-number">9</div>
+                        <div class="counter-number">8</div>
+                        <div class="counter-number">7</div>
+                        <div class="counter-number">6</div>
+                        <div class="counter-number">5</div>
+                        <div class="counter-number">4</div>
+                        <div class="counter-number">3</div>
+                        <div class="counter-number">2</div>
+                        <div class="counter-number">1</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="counter-title-block">
+                    <div class="counter-title counter-number">k</div>
+                  </div>
+                </div>
+                <div class="text-lg">Active Clients</div>
+              </div>
+              <div class="vartical-divider"></div>
+              <div class="stat-count">
+                <div class="single-counter-inner-block">
+                  <div class="counter-box">
+                    <div class="counter">
+                      <div class="counter-train">
+                        <div class="counter-number">2</div>
+                        <div class="counter-number">2</div>
+                        <div class="counter-number">3</div>
+                        <div class="counter-number">4</div>
+                        <div class="counter-number">5</div>
+                        <div class="counter-number">6</div>
+                        <div class="counter-number">7</div>
+                        <div class="counter-number">8</div>
+                        <div class="counter-number">9</div>
+                        <div class="counter-number">1</div>
+                      </div>
+                      <div class="counter-train">
+                        <div class="counter-number">2</div>
+                        <div class="counter-number">9</div>
+                        <div class="counter-number">8</div>
+                        <div class="counter-number">7</div>
+                        <div class="counter-number">6</div>
+                        <div class="counter-number">5</div>
+                        <div class="counter-number">4</div>
+                        <div class="counter-number">3</div>
+                        <div class="counter-number">2</div>
+                        <div class="counter-number">1</div>
+                      </div>
+                    </div>
+                    <div class="counter">
+                      <div class="counter-train-up">
+                        <div class="counter-number">0</div>
+                        <div class="counter-number">2</div>
+                        <div class="counter-number">3</div>
+                        <div class="counter-number">4</div>
+                        <div class="counter-number">5</div>
+                        <div class="counter-number">6</div>
+                        <div class="counter-number">7</div>
+                        <div class="counter-number">8</div>
+                        <div class="counter-number">9</div>
+                        <div class="counter-number">1</div>
+                      </div>
+                      <div class="counter-train-up">
+                        <div class="counter-number">1</div>
+                        <div class="counter-number">9</div>
+                        <div class="counter-number">8</div>
+                        <div class="counter-number">7</div>
+                        <div class="counter-number">6</div>
+                        <div class="counter-number">5</div>
+                        <div class="counter-number">4</div>
+                        <div class="counter-number">3</div>
+                        <div class="counter-number">2</div>
+                        <div class="counter-number">1</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="counter-title-block">
+                    <div class="counter-title counter-number">k</div>
+                  </div>
+                </div>
+                <div class="text-lg">Glorious Years</div>
+              </div>
+              <div class="vartical-divider"></div>
+              <div class="stats-description-wrap">
+                <div class="heading-dark">
+                  <div class="h6 font-weight-600">
+                    We put our customers at the heart of everything we do.
+                  </div>
+                </div>
+                <div class="text-lg">Satisfied Users Over The Globe</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonial-section">
+      <div class="container">
+        <div class="testimonial-heading-block">
+          <h2 class="h2 team-title" data-aos="fade-up">
+            Read what our satisfied clients have to say about us.
+          </h2>
+        </div>
+      </div>
+      <div class="swiper testimonial-slide" data-aos="fade-up">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="testimonial-card-2">
+              <div class="client-image-wrap-2">
+                <img
+                  src="images/Rectangle-11.jpg"
+                  loading="lazy"
+                  alt="client"
+                  class="client-avater"
+                />
+              </div>
+              <div class="testimonial-card-body-wrap">
+                <div class="text-lg-2">
+                  &quot;The cleaning crew did an amazing job on our office.
+                  Efficient and eco-friendly, our workspace has never looked
+                  better. Team morale is up. Highly recommend!&quot;
+                </div>
+                <div class="testimonial-card-divider"></div>
+                <div class="heading-dark-2">
+                  <div class="text-lg-2 font-weight-600">Cody Fisher</div>
+                </div>
+              </div>
+              <div class="text-md-2">Sarah M.</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-card-2">
+              <div class="client-image-wrap-2">
+                <img
+                  src="images/Rectangle-11-1.jpg"
+                  loading="lazy"
+                  alt="client"
+                  class="client-avater"
+                />
+              </div>
+              <div class="testimonial-card-body-wrap">
+                <div class="text-lg-2">
+                  &quot;The cleaning crew did an amazing job on our office
+                  space. Efficient and eco-friendly, they transformed our
+                  workspace. The fresh environment boosted our team&#x27;s
+                  morale.&quot;
+                </div>
+                <div class="testimonial-card-divider"></div>
+                <div class="heading-dark-2">
+                  <div class="text-lg-2 font-weight-600">Jacob  Jones</div>
+                </div>
+              </div>
+              <div class="text-md-2">CEO</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-card-2">
+              <div class="client-image-wrap-2">
+                <img
+                  src="images/Rectangle-11-2.jpg"
+                  loading="lazy"
+                  alt="client"
+                  class="client-avater"
+                />
+              </div>
+              <div class="testimonial-card-body-wrap">
+                <div class="text-lg-2">
+                  &quot;As a busy parent, this cleaning service is a lifesaver!
+                  Thorough, friendly, and trustworthy. Coming home to a spotless
+                  house is such a relief. Highly recommend!&quot;
+                </div>
+                <div class="testimonial-card-divider"></div>
+                <div class="heading-dark-2">
+                  <div class="text-lg-2 font-weight-600">Darlene Robertson</div>
+                </div>
+              </div>
+              <div class="text-md-2">Owner</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-card-2">
+              <div class="client-image-wrap-2">
+                <img
+                  src="images/Rectangle-11-3.jpg"
+                  loading="lazy"
+                  alt="client"
+                  class="client-avater"
+                />
+              </div>
+              <div class="testimonial-card-body-wrap">
+                <div class="text-lg-2">
+                  &quot;The cleaning crew did an amazing job on our office.
+                  Efficient and eco-friendly, our workspace has never looked
+                  better. Team morale is up. Highly recommend!&quot;
+                </div>
+                <div class="testimonial-card-divider"></div>
+                <div class="heading-dark-2">
+                  <div class="text-lg-2 font-weight-600">Temmy John</div>
+                </div>
+              </div>
+              <div class="text-md-2">CTO</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-card-2">
+              <div class="client-image-wrap-2">
+                <img
+                  src="images/Rectangle-11-1.jpg"
+                  loading="lazy"
+                  alt="client"
+                  class="client-avater"
+                />
+              </div>
+              <div class="testimonial-card-body-wrap">
+                <div class="text-lg-2">
+                  &quot;The cleaning crew did an amazing job on our office.
+                  Efficient and eco-friendly, our workspace has never looked
+                  better. Team morale is up. Highly recommend!&quot;
+                </div>
+                <div class="testimonial-card-divider"></div>
+                <div class="heading-dark-2">
+                  <div class="text-lg-2 font-weight-600">Cody Fisher</div>
+                </div>
+              </div>
+              <div class="text-md-2">Sarah M.</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-arrow-wrapper">
+          <div class="swiper-prev">
+            <img
+              loading="lazy"
+              src="images/Vector-5_1.svg"
+              alt=""
+              class="arrow-image"
+            />
+          </div>
+          <div class="swiper-next">
+            <img
+              loading="lazy"
+              src="images/Vector-1_1.svg"
+              alt=""
+              class="arrow-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog-section pb-0px">
+      <div class="container">
+        <div class="blog-content-layout">
+          <div class="blog-heading-block">
+            <div class="heading-dark">
+              <h2 class="h2" data-aos="fade-right">
+                Benefits of hiring professional cleaners for your home
+              </h2>
+            </div>
+            <div class="blog-description-wrap" data-aos="fade-left">
+              <div class="text-lg">
+                We are committed to delivering exceptional cleaning that leave
+                your spaces sparkling clean and hygienic.
+              </div>
+            </div>
+          </div>
+          <div class="blog-collection-list">
+            <div class="blog-card" data-aos="fade-up">
+              <div class="blog-thumbnail-wrap">
+                <a
+                  href="detail_blog.html"
+                  class="blog-thumbnail-link-block w-inline-block"
+                  ><img
+                    loading="lazy"
+                    src="images/1.webp"
+                    alt="Thumbnail"
+                    class="blog-thumbnail"
+                /></a>
+              </div>
+              <div class="blog-category-wrap">
+                <a href="detail_blog-tag.html" class="text-sm link-block"
+                  >Residental</a
+                >
+              </div>
+              <div class="blog-card-content-wrap">
+                <div class="blog-meta-data-wrap">
+                  <div class="text-md">06 June 2024</div>
+                  <div class="blog-meta-divider"></div>
+                  <a href="detail_author.html" class="text-md link-block"
+                    >Guy Hawkins</a
+                  >
+                </div>
+                <a
+                  href="detail_blog.html"
+                  class="heading-dark link-block w-inline-block"
+                >
+                  <h3 class="h6">
+                    10 Tips for Keeping Your Home Clean and Organized.
+                  </h3>
+                </a>
+                <a
+                  href="detail_blog.html"
+                  class="blog-card-link w-inline-block"
+                >
+                  <div class="text-lg">Read More</div>
+                  <div class="blog-card-link-icon-wrap">
+                    <img
+                      loading="lazy"
+                      src="images/arrow-right_1.svg"
+                      alt="icon"
+                      class="read-more-arrow is-hovered"
+                    /><img
+                      loading="lazy"
+                      src="images/arrow-right.svg"
+                      alt="icon"
+                      class="read-more-arrow"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="blog-card" data-aos="fade-up" data-aos-duration="800">
+              <div class="blog-thumbnail-wrap">
+                <a
+                  href="detail_blog.html"
+                  class="blog-thumbnail-link-block w-inline-block"
+                  ><img
+                    loading="lazy"
+                    src="images/3.webp"
+                    alt="Thumbnail"
+                    class="blog-thumbnail"
+                /></a>
+              </div>
+              <div class="blog-category-wrap">
+                <a href="detail_blog-tag.html" class="text-sm link-block"
+                  >Office</a
+                >
+              </div>
+              <div class="blog-card-content-wrap">
+                <div class="blog-meta-data-wrap">
+                  <div class="text-md">06 June 2024</div>
+                  <div class="blog-meta-divider"></div>
+                  <a href="detail_author.html" class="text-md link-block"
+                    >Jacob Jones</a
+                  >
+                </div>
+                <a
+                  href="detail_blog.html"
+                  class="heading-dark link-block w-inline-block"
+                >
+                  <h3 class="h6">The Benefits of Green Cleaning.</h3>
+                </a>
+                <a
+                  href="detail_blog.html"
+                  class="blog-card-link w-inline-block"
+                >
+                  <div class="text-lg">Read More</div>
+                  <div class="blog-card-link-icon-wrap">
+                    <img
+                      loading="lazy"
+                      src="images/arrow-right_1.svg"
+                      alt="icon"
+                      class="read-more-arrow is-hovered"
+                    /><img
+                      loading="lazy"
+                      src="images/arrow-right.svg"
+                      alt="icon"
+                      class="read-more-arrow"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="blog-card" data-aos="fade-up" data-aos-duration="1000">
+              <div class="blog-thumbnail-wrap">
+                <a
+                  href="detail_blog.html"
+                  class="blog-thumbnail-link-block w-inline-block"
+                  ><img
+                    loading="lazy"
+                    src="images/4.webp"
+                    alt="Thumbnail"
+                    class="blog-thumbnail"
+                /></a>
+              </div>
+              <div class="blog-category-wrap">
+                <a href="detail_blog-tag.html" class="text-sm link-block"
+                  >Eco-friendly</a
+                >
+              </div>
+              <div class="blog-card-content-wrap">
+                <div class="blog-meta-data-wrap">
+                  <div class="text-md">06 June 2024</div>
+                  <div class="blog-meta-divider"></div>
+                  <a href="detail_author.html" class="text-md link-block"
+                    >Johan Smith</a
+                  >
+                </div>
+                <a
+                  href="detail_blog.html"
+                  class="heading-dark link-block w-inline-block"
+                >
+                  <h3 class="h6">
+                    How to Prepare Your Office for a Professional Cleaning
+                    Service.
+                  </h3>
+                </a>
+                <a
+                  href="detail_blog.html"
+                  class="blog-card-link w-inline-block"
+                >
+                  <div class="text-lg">Read More</div>
+                  <div class="blog-card-link-icon-wrap">
+                    <img
+                      loading="lazy"
+                      src="images/arrow-right_1.svg"
+                      alt="icon"
+                      class="read-more-arrow is-hovered"
+                    /><img
+                      loading="lazy"
+                      src="images/arrow-right.svg"
+                      alt="icon"
+                      class="read-more-arrow"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="blog-description-wrap wdith-100"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <a
+              data-wf--button--variant="base"
+              href="blog.html"
+              class="button w-inline-block"
+            >
+              <div>Browse All Blog</div>
             </a>
           </div>
-          <div class="menu-button w-nav-button">
-            <div class="navbar-menu">
-              <div class="top"></div>
-              <div class="middle"></div>
-              <div class="buttom"></div>
-            </div>
-          </div>
         </div>
       </div>
-    </div>
-    <div class="header-scroll-down-shadow"></div>
-  </header>
-  <section class="hero-section">
-    <div class="container">
-      <div class="hero-section-layout">
-        <div class="hero-content-info-wrap">
-          <div class="hero-content-block" data-aos="fade-up">
-            <div class="text-xl font-500 letter-spacing">Professional cleaning services</div>
-            <div class="hero-content-wrap">
-              <div class="color-accent-dark">
-                <h1 class="h1">The Ultimate Clean for Every Space</h1>
-              </div>
-              <div class="text-xxl letter-spacing">Our goal is to uphold superior cleanliness standards, guaranteeing
-                your surroundings remain perfectly disinfected and healthful.</div>
-              <div class="hero-buttons-block">
-                <a data-wf--button--variant="base" href="contact-us.html" class="button w-inline-block">
-                  <div>Make An Appointment</div>
-                </a>
-                <div class="hero-lightbox-wrap">
-                  <a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="images/Vector-3.svg"
-                      loading="lazy" alt="play icon">
-                    <div class="text-lg font-weight-500">Watch Video</div>
-                    <script type="application/json" class="w-json">
-                      {
-                      "items": [
-                        {
-                          "url": "https://www.youtube.com/watch?v=setu9Ir1miY&list=PLPmnoMVpkxfj-DzMkYNf7LM3ebjwoY6b2&index=1",
-                          "originalUrl": "https://www.youtube.com/watch?v=setu9Ir1miY&list=PLPmnoMVpkxfj-DzMkYNf7LM3ebjwoY6b2&index=1",
-                          "width": 940,
-                          "height": 528,
-                          "thumbnailUrl": "https://i.ytimg.com/vi/setu9Ir1miY/hqdefault.jpg",
-                          "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fsetu9Ir1miY%3Flist%3DPLPmnoMVpkxfj-DzMkYNf7LM3ebjwoY6b2&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dsetu9Ir1miY&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fsetu9Ir1miY%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
-                          "type": "video"
-                        }
-                      ],
-                      "group": ""
-                    }
-                    </script>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="heo-images-block" data-aos="fade-up">
-            <div class="hero-images-first-col">
-              <div class="hero-image-wrap _1st-child"><img src="images/Mask-group.webp" loading="lazy"
-                  sizes="(max-width: 1152px) 100vw, 1152px"
-                  srcset="images/Mask-group-p-500.webp 500w, images/Mask-group-p-800.webp 800w, images/Mask-group.webp 1152w"
-                  alt="hero image" class="hero-image"></div>
-              <div class="hero-customer-info-block">
-                <div class="text-lg satisfied-text">Satisfied customers</div>
-                <div class="hero-customer-image-wrap"><img src="images/Frame-15.png" loading="lazy" alt="">
-                  <div class="text-lg font-weight-600 satisfied-number">100K<span class="color-primary">+</span></div>
-                </div>
-              </div>
-            </div>
-            <div id="w-node-edf2310d-900f-839e-a89b-cc9f11dfc96c-1e2b7e29" class="hero-images-2nd-col">
-              <div class="hero-info-card-block">
-                <div class="hero-support-icon"><img src="images/fi_4280518.svg" loading="lazy" alt="icon"></div>
-                <div class="text-lg">24/7 support</div>
-              </div>
-              <div class="hero-image-wrap"><img src="images/image-removebg-preview-1.webp" loading="lazy"
-                  sizes="(max-width: 1152px) 100vw, 1152px"
-                  srcset="images/image-removebg-preview-1-p-500.webp 500w, images/image-removebg-preview-1-p-800.webp 800w, images/image-removebg-preview-1.webp 1152w"
-                  alt="hero image" class="hero-image _2nd-child"></div>
-            </div>
-          </div>
-        </div>
-        <div class="brands-logo-block" data-aos="fade-up">
-          <div class="text-xxl brands-logo-title">Trusted by Thousand of Organizations</div>
-          <div class="brand-logo-images-wrap">
-            <div class="brands-logo-wrap"><img src="images/Frame-1215874301.svg" loading="lazy" alt="hero logo"
-                class="brand-logo"><img src="images/Frame-1215874302.svg" loading="lazy" alt="hero logo"
-                class="brand-logo"><img src="images/Frame-1215874303.svg" loading="lazy" alt="hero logo"
-                class="brand-logo"><img src="images/Frame-1215874304.svg" loading="lazy"
-                id="w-node-de8430ea-f819-7ad5-a112-20d262922a79-1e2b7e29" alt="hero logo" class="brand-logo"><img
-                src="images/Frame-1215874319.svg" loading="lazy" alt="hero logo" class="brand-logo"></div>
-            <div class="brands-logo-wrap"><img src="images/Frame-1215874301.svg" loading="lazy" alt="hero logo"
-                class="brand-logo"><img src="images/Frame-1215874302.svg" loading="lazy" alt="hero logo"
-                class="brand-logo"><img src="images/Frame-1215874303.svg" loading="lazy" alt="hero logo"
-                class="brand-logo"><img src="images/Frame-1215874304.svg" loading="lazy"
-                id="w-node-c4eee383-d9fe-6ed2-56ad-7a722c0051fc-1e2b7e29" alt="hero logo" class="brand-logo"><img
-                src="images/Frame-1215874319.svg" loading="lazy" alt="hero logo" class="brand-logo"></div>
-            <div class="brands-logo-wrap"><img src="images/Frame-1215874301.svg" loading="lazy" alt="hero logo"
-                class="brand-logo"><img src="images/Frame-1215874302.svg" loading="lazy" alt="hero logo"
-                class="brand-logo"><img src="images/Frame-1215874303.svg" loading="lazy" alt="hero logo"
-                class="brand-logo"><img src="images/Frame-1215874304.svg" loading="lazy"
-                id="w-node-d3cc6ab4-f9b9-ab41-666a-3b4dceea7382-1e2b7e29" alt="hero logo" class="brand-logo"><img
-                src="images/Frame-1215874319.svg" loading="lazy" alt="hero logo" class="brand-logo"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="service-section">
-    <div class="container">
-      <div class="service-block">
-        <div class="service-heading-wrap">
-          <div class="service-title-block">
-            <h2 class="h2 team-title" data-aos="fade-right">We offer a wide variety of specialized Cleaning</h2>
-          </div>
-          <div class="service-description-block" data-aos="fade-left">
-            <div class="text-lg">We are committed to delivering exceptional cleaning services that leave your spaces
-              sparkling clean and hygienic. Our professional team uses eco-friendly products to ensure a safe and
-              healthy environment for you.</div>
-          </div>
-        </div>
-        <div class="service-card-wrap">
-          <div class="service-collection-list">
-            <div class="service-collection-item" data-aos="fade-up">
-              <a href="detail_service-cards.html" class="service-card-link-block-wrapper w-inline-block">
-                <div class="service-icon-block"><img src="images/Frame-36.webp" loading="lazy" alt=""
-                    class="service-icon"></div>
-                <div class="service-title-block">
-                  <h3 class="service-title">Residential Services</h3>
-                </div>
-                <div class="service-short-summary-block">
-                  <p class="service-short-summary">From regular housekeeping to deep cleaning, we ensure your home is
-                    always welcoming and pristine.</p>
-                </div>
-                <div class="service-card-divider-block"></div>
-                <div class="service-card-button-block">
-                  <div class="service-card-button-text">Learn More</div>
-                  <div class="service-card-button-icon-block"><img src="images/Vector-5.svg" loading="lazy" alt=""
-                      class="service-card-button-icon"></div>
-                </div>
-              </a>
-            </div>
-            <div class="service-collection-item" data-aos="fade-up" data-aos-duration="800">
-              <a href="detail_service-cards.html" class="service-card-link-block-wrapper w-inline-block">
-                <div class="service-icon-block"><img src="images/Frame-36-1.webp" loading="lazy" alt=""
-                    class="service-icon"></div>
-                <div class="service-title-block">
-                  <h3 class="service-title">Commercial Services</h3>
-                </div>
-                <div class="service-short-summary-block">
-                  <p class="service-short-summary">Keep your workplace clean and pristine with our comprehensive
-                    commercial UltraClean cleaning  services.</p>
-                </div>
-                <div class="service-card-divider-block"></div>
-                <div class="service-card-button-block">
-                  <div class="service-card-button-text">Learn More</div>
-                  <div class="service-card-button-icon-block"><img src="images/Vector-5.svg" loading="lazy" alt=""
-                      class="service-card-button-icon"></div>
-                </div>
-              </a>
-            </div>
-            <div class="service-collection-item" data-aos="fade-up" data-aos-duration="1000">
-              <a href="detail_service-cards.html" class="service-card-link-block-wrapper w-inline-block">
-                <div class="service-icon-block"><img src="images/Frame-36-2.png" loading="lazy" alt=""
-                    class="service-icon"></div>
-                <div class="service-title-block">
-                  <h3 class="service-title">Specialized Services</h3>
-                </div>
-                <div class="service-short-summary-block">
-                  <p class="service-short-summary">We offer specialized services, including carpet cleaning, window
-                    washing, and  address specific cleaning needs.</p>
-                </div>
-                <div class="service-card-divider-block"></div>
-                <div class="service-card-button-block">
-                  <div class="service-card-button-text">Learn More</div>
-                  <div class="service-card-button-icon-block"><img src="images/Vector-5.svg" loading="lazy" alt=""
-                      class="service-card-button-icon"></div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="about-section padding-top-mobile-0px">
-    <div class="container">
-      <div class="about-content-wrap">
-        <div class="about-img-wrap" data-aos="fade-up"><img sizes="(max-width: 1228px) 100vw, 1228px"
-            srcset="images/image-removebg-preview-2-1-p-500.webp 500w, images/image-removebg-preview-2-1-p-800.webp 800w, images/image-removebg-preview-2-1-p-1080.webp 1080w, images/image-removebg-preview-2-1.webp 1228w"
-            alt="about image" src="images/image-removebg-preview-2-1.webp" loading="lazy" class="about-img"></div>
-        <div class="about-content-block" data-aos="fade-up">
-          <div class="about-heading-block">
+    </section>
+    <section class="contact-us-section">
+      <div class="container">
+        <div class="contact-us-layout">
+          <div class="contact-us-heading-block">
             <div class="heading-dark">
-              <h2 class="h2">About UltraClean Solutions</h2>
+              <h2 class="h2 team-title" data-aos="fade-up">
+                Get in touch with us
+              </h2>
             </div>
-            <div class="text-lg">At UltraClean Solutions, we are dedicated to providing top-tier cleaning services that
-              exceed your expectations. With years of experience in the cleaning industry, we pride ourselves on our
-              meticulous attention.</div>
+            <div class="contact-description-wrap" data-aos="fade-up">
+              <div class="text-lg letter-spacing-0px">
+                We would love to hear from you! Whether you have questions, need
+                a quote, or want to schedule a service, our team is here to
+                help.
+              </div>
+            </div>
           </div>
-          <a data-wf--button--variant="base" href="#" class="button w-inline-block">
-            <div>Learn More</div>
-          </a>
-          <div class="about-stats-data" data-aos="fade-up" data-aos-duration="800">
-            <div class="stat-count">
-              <div class="single-counter-inner-block">
-                <div class="counter-box">
-                  <div class="counter">
-                    <div class="counter-train">
-                      <div class="counter-number">4</div>
-                      <div class="counter-number">2</div>
-                      <div class="counter-number">3</div>
-                      <div class="counter-number">4</div>
-                      <div class="counter-number">5</div>
-                      <div class="counter-number">6</div>
-                      <div class="counter-number">7</div>
-                      <div class="counter-number">8</div>
-                      <div class="counter-number">9</div>
-                      <div class="counter-number">1</div>
+          <div class="contact-content-wrap">
+            <div class="contact-us-image-block" data-aos="fade-right">
+              <div class="contact-us-image-inner">
+                <img
+                  src="images/smiling-holding-points.webp"
+                  loading="lazy"
+                  sizes="(max-width: 1240px) 100vw, 1240px"
+                  srcset="
+                    images/smiling-holding-points-p-500.webp   500w,
+                    images/smiling-holding-points-p-800.webp   800w,
+                    images/smiling-holding-points-p-1080.webp 1080w,
+                    images/smiling-holding-points.webp        1240w
+                  "
+                  alt=""
+                  class="contact-us-image"
+                />
+                <div class="contact-info-block">
+                  <a
+                    id="w-node-_8cb9b6d2-d280-8268-8077-d65193a9a09b-93a9a08c"
+                    href="tel:+4725357456"
+                    class="contact-info-card w-inline-block"
+                    ><img
+                      src="images/phone.svg"
+                      loading="lazy"
+                      alt=""
+                      class="contact-info-card-icon"
+                    />
+                    <div class="text-default">+4725 357 456</div>
+                  </a>
+                  <a
+                    id="w-node-_8cb9b6d2-d280-8268-8077-d65193a9a0a5-93a9a08c"
+                    href="https://maps.google.com/"
+                    target="_blank"
+                    class="contact-info-card w-inline-block"
+                    ><img
+                      src="images/map-pin.svg"
+                      loading="lazy"
+                      alt=""
+                      class="contact-info-card-icon"
+                    />
+                    <div class="contact-info">
+                      <div class="text-default">Google Map</div>
                     </div>
-                    <div class="counter-train">
-                      <div class="counter-number">4</div>
-                      <div class="counter-number">9</div>
-                      <div class="counter-number">8</div>
-                      <div class="counter-number">7</div>
-                      <div class="counter-number">6</div>
-                      <div class="counter-number">5</div>
-                      <div class="counter-number">4</div>
-                      <div class="counter-number">3</div>
-                      <div class="counter-number">2</div>
-                      <div class="counter-number">1</div>
+                  </a>
+                  <a
+                    id="w-node-_8cb9b6d2-d280-8268-8077-d65193a9a0a0-93a9a08c"
+                    href="mailto:hello@trydo.com"
+                    class="contact-info-card w-inline-block"
+                    ><img
+                      src="images/mail.svg"
+                      loading="lazy"
+                      alt=""
+                      class="contact-info-card-icon"
+                    />
+                    <div class="contact-info">
+                      <div class="text-default">hello@trydo.com</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="contact-us-form-block" data-aos="fade-left">
+              <div class="contact-us-form-wrap w-form">
+                <form
+                  id="email-form"
+                  name="email-form"
+                  data-name="Email Form"
+                  method="get"
+                  class="contact-us-form"
+                  data-wf-page-id="687fa5eeeaec53521e2b7e29"
+                  data-wf-element-id="8cb9b6d2-d280-8268-8077-d65193a9a0ac"
+                >
+                  <div class="contact-form-inputs-wrap">
+                    <div class="contact-us-form-inner">
+                      <input
+                        class="form-input w-node-_8cb9b6d2-d280-8268-8077-d65193a9a0ae-93a9a08c w-input"
+                        maxlength="256"
+                        name="name-2"
+                        data-name="Name 2"
+                        placeholder="Name"
+                        type="text"
+                        id="name-2"
+                        required=""
+                      /><input
+                        class="form-input w-node-_8cb9b6d2-d280-8268-8077-d65193a9a0af-93a9a08c w-input"
+                        maxlength="256"
+                        name="email-2"
+                        data-name="Email 2"
+                        placeholder="Email"
+                        type="email"
+                        id="email-2"
+                        required=""
+                      /><input
+                        class="form-input w-node-_8cb9b6d2-d280-8268-8077-d65193a9a0b0-93a9a08c w-input"
+                        maxlength="256"
+                        name="Services-2"
+                        data-name="Services 2"
+                        placeholder="Services"
+                        type="text"
+                        id="Services-2"
+                        required=""
+                      /><textarea
+                        required=""
+                        placeholder="Write Message..."
+                        maxlength="5000"
+                        id="field-2"
+                        name="field-2"
+                        data-name="Field 2"
+                        class="contact-text-area w-node-_8cb9b6d2-d280-8268-8077-d65193a9a0b1-93a9a08c w-input"
+                      ></textarea
+                      ><label
+                        id="w-node-_8cb9b6d2-d280-8268-8077-d65193a9a0b2-93a9a08c"
+                        class="w-checkbox checkbox-field"
+                        ><input
+                          type="checkbox"
+                          id="checkbox-2"
+                          name="checkbox-2"
+                          data-name="Checkbox 2"
+                          required=""
+                          class="w-checkbox-input checkbox"
+                        /><span class="text-md w-form-label" for="checkbox-2"
+                          >I agree that my submitted data is being collected and
+                          stored.</span
+                        ></label
+                      >
                     </div>
                   </div>
-                  <div class="counter">
-                    <div class="counter-train-up">
-                      <div class="counter-number">0</div>
-                      <div class="counter-number">2</div>
-                      <div class="counter-number">3</div>
-                      <div class="counter-number">4</div>
-                      <div class="counter-number">5</div>
-                      <div class="counter-number">6</div>
-                      <div class="counter-number">7</div>
-                      <div class="counter-number">8</div>
-                      <div class="counter-number">9</div>
-                      <div class="counter-number">1</div>
-                    </div>
-                    <div class="counter-train-up">
-                      <div class="counter-number">1</div>
-                      <div class="counter-number">9</div>
-                      <div class="counter-number">8</div>
-                      <div class="counter-number">7</div>
-                      <div class="counter-number">6</div>
-                      <div class="counter-number">5</div>
-                      <div class="counter-number">4</div>
-                      <div class="counter-number">3</div>
-                      <div class="counter-number">2</div>
-                      <div class="counter-number">1</div>
-                    </div>
+                  <input
+                    type="submit"
+                    data-wait="Please wait..."
+                    class="button w-button"
+                    value="Send Message"
+                  />
+                </form>
+                <div class="w-form-done">
+                  <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                  <div>
+                    Oops! Something went wrong while submitting the form.
                   </div>
                 </div>
-                <div class="counter-title-block">
-                  <div class="counter-title counter-number">k</div>
-                </div>
               </div>
-              <div class="text-lg">Active Clients</div>
             </div>
-            <div class="vartical-divider"></div>
-            <div class="stat-count">
-              <div class="single-counter-inner-block">
-                <div class="counter-box">
-                  <div class="counter">
-                    <div class="counter-train">
-                      <div class="counter-number">2</div>
-                      <div class="counter-number">2</div>
-                      <div class="counter-number">3</div>
-                      <div class="counter-number">4</div>
-                      <div class="counter-number">5</div>
-                      <div class="counter-number">6</div>
-                      <div class="counter-number">7</div>
-                      <div class="counter-number">8</div>
-                      <div class="counter-number">9</div>
-                      <div class="counter-number">1</div>
-                    </div>
-                    <div class="counter-train">
-                      <div class="counter-number">2</div>
-                      <div class="counter-number">9</div>
-                      <div class="counter-number">8</div>
-                      <div class="counter-number">7</div>
-                      <div class="counter-number">6</div>
-                      <div class="counter-number">5</div>
-                      <div class="counter-number">4</div>
-                      <div class="counter-number">3</div>
-                      <div class="counter-number">2</div>
-                      <div class="counter-number">1</div>
-                    </div>
-                  </div>
-                  <div class="counter">
-                    <div class="counter-train-up">
-                      <div class="counter-number">0</div>
-                      <div class="counter-number">2</div>
-                      <div class="counter-number">3</div>
-                      <div class="counter-number">4</div>
-                      <div class="counter-number">5</div>
-                      <div class="counter-number">6</div>
-                      <div class="counter-number">7</div>
-                      <div class="counter-number">8</div>
-                      <div class="counter-number">9</div>
-                      <div class="counter-number">1</div>
-                    </div>
-                    <div class="counter-train-up">
-                      <div class="counter-number">1</div>
-                      <div class="counter-number">9</div>
-                      <div class="counter-number">8</div>
-                      <div class="counter-number">7</div>
-                      <div class="counter-number">6</div>
-                      <div class="counter-number">5</div>
-                      <div class="counter-number">4</div>
-                      <div class="counter-number">3</div>
-                      <div class="counter-number">2</div>
-                      <div class="counter-number">1</div>
-                    </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-section">
+      <div class="container">
+        <div class="footer-layout-block">
+          <div class="footer-content-wrap">
+            <div class="footer-content-inner">
+              <div class="footer-content-left-block" data-aos="fade-up">
+                <div
+                  id="w-node-b63e377a-1e03-4beb-cdb5-464bc0478fcc-c0478fc8"
+                  class="footer-about-block"
+                >
+                  <a
+                    href="index.html"
+                    aria-current="page"
+                    class="brand w-nav-brand w--current"
+                    ><img
+                      loading="lazy"
+                      src="images/Frame-1215874387.svg"
+                      alt="icon"
+                  /></a>
+                  <div class="footer-link-text">
+                    The Cleaning 128 is built for Industrial Cleaning Companies
+                    but is suitable for all that provide cleaning services.
                   </div>
                 </div>
-                <div class="counter-title-block">
-                  <div class="counter-title counter-number">k</div>
-                </div>
               </div>
-              <div class="text-lg">Glorious Years</div>
-            </div>
-            <div class="vartical-divider"></div>
-            <div class="stats-description-wrap">
-              <div class="heading-dark">
-                <div class="h6 font-weight-600">We put our customers at the heart of everything we do.</div>
-              </div>
-              <div class="text-lg">Satisfied Users Over The Globe</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="testimonial-section">
-    <div class="container">
-      <div class="testimonial-heading-block">
-        <h2 class="h2 team-title" data-aos="fade-up">Read what our satisfied clients have to say about us.</h2>
-      </div>
-    </div>
-    <div class="swiper testimonial-slide" data-aos="fade-up">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="testimonial-card-2">
-            <div class="client-image-wrap-2"><img src="images/Rectangle-11.jpg" loading="lazy" alt="client"
-                class="client-avater"></div>
-            <div class="testimonial-card-body-wrap">
-              <div class="text-lg-2">&quot;The cleaning crew did an amazing job on our office. Efficient and
-                eco-friendly, our workspace has never looked better. Team morale is up. Highly recommend!&quot;</div>
-              <div class="testimonial-card-divider"></div>
-              <div class="heading-dark-2">
-                <div class="text-lg-2 font-weight-600">Cody Fisher</div>
-              </div>
-            </div>
-            <div class="text-md-2">Sarah M.</div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-card-2">
-            <div class="client-image-wrap-2"><img src="images/Rectangle-11-1.jpg" loading="lazy" alt="client"
-                class="client-avater"></div>
-            <div class="testimonial-card-body-wrap">
-              <div class="text-lg-2">&quot;The cleaning crew did an amazing job on our office space. Efficient and
-                eco-friendly, they transformed our workspace. The fresh environment boosted our team&#x27;s
-                morale.&quot;</div>
-              <div class="testimonial-card-divider"></div>
-              <div class="heading-dark-2">
-                <div class="text-lg-2 font-weight-600">Jacob  Jones</div>
-              </div>
-            </div>
-            <div class="text-md-2">CEO</div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-card-2">
-            <div class="client-image-wrap-2"><img src="images/Rectangle-11-2.jpg" loading="lazy" alt="client"
-                class="client-avater"></div>
-            <div class="testimonial-card-body-wrap">
-              <div class="text-lg-2">&quot;As a busy parent, this cleaning service is a lifesaver! Thorough, friendly,
-                and trustworthy. Coming home to a spotless house is such a relief. Highly recommend!&quot;</div>
-              <div class="testimonial-card-divider"></div>
-              <div class="heading-dark-2">
-                <div class="text-lg-2 font-weight-600">Darlene Robertson</div>
-              </div>
-            </div>
-            <div class="text-md-2">Owner</div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-card-2">
-            <div class="client-image-wrap-2"><img src="images/Rectangle-11-3.jpg" loading="lazy" alt="client"
-                class="client-avater"></div>
-            <div class="testimonial-card-body-wrap">
-              <div class="text-lg-2">&quot;The cleaning crew did an amazing job on our office. Efficient and
-                eco-friendly, our workspace has never looked better. Team morale is up. Highly recommend!&quot;</div>
-              <div class="testimonial-card-divider"></div>
-              <div class="heading-dark-2">
-                <div class="text-lg-2 font-weight-600">Temmy John</div>
-              </div>
-            </div>
-            <div class="text-md-2">CTO</div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-card-2">
-            <div class="client-image-wrap-2"><img src="images/Rectangle-11-1.jpg" loading="lazy" alt="client"
-                class="client-avater"></div>
-            <div class="testimonial-card-body-wrap">
-              <div class="text-lg-2">&quot;The cleaning crew did an amazing job on our office. Efficient and
-                eco-friendly, our workspace has never looked better. Team morale is up. Highly recommend!&quot;</div>
-              <div class="testimonial-card-divider"></div>
-              <div class="heading-dark-2">
-                <div class="text-lg-2 font-weight-600">Cody Fisher</div>
-              </div>
-            </div>
-            <div class="text-md-2">Sarah M.</div>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-arrow-wrapper">
-        <div class="swiper-prev"><img loading="lazy" src="images/Vector-5_1.svg" alt="" class="arrow-image"></div>
-        <div class="swiper-next"><img loading="lazy" src="images/Vector-1_1.svg" alt="" class="arrow-image"></div>
-      </div>
-    </div>
-  </section>
-  <section class="blog-section pb-0px">
-    <div class="container">
-      <div class="blog-content-layout">
-        <div class="blog-heading-block">
-          <div class="heading-dark">
-            <h2 class="h2" data-aos="fade-right">Benefits of hiring professional cleaners for your home</h2>
-          </div>
-          <div class="blog-description-wrap" data-aos="fade-left">
-            <div class="text-lg">We are committed to delivering exceptional cleaning that leave your spaces sparkling
-              clean and hygienic.</div>
-          </div>
-        </div>
-        <div class="blog-collection-list">
-          <div class="blog-card" data-aos="fade-up">
-            <div class="blog-thumbnail-wrap">
-              <a href="detail_blog.html" class="blog-thumbnail-link-block w-inline-block"><img loading="lazy" src="images/1.webp"
-                  alt="Thumbnail" class="blog-thumbnail"></a>
-            </div>
-            <div class="blog-category-wrap">
-              <a href="detail_blog-tag.html" class="text-sm link-block">Residental</a>
-            </div>
-            <div class="blog-card-content-wrap">
-              <div class="blog-meta-data-wrap">
-                <div class="text-md">06 June 2024</div>
-                <div class="blog-meta-divider"></div>
-                <a href="detail_author.html" class="text-md link-block">Guy Hawkins</a>
-              </div>
-              <a href="detail_blog.html" class="heading-dark link-block w-inline-block">
-                <h3 class="h6">10 Tips for Keeping Your Home Clean and Organized.</h3>
-              </a>
-              <a href="detail_blog.html" class="blog-card-link w-inline-block">
-                <div class="text-lg">Read More</div>
-                <div class="blog-card-link-icon-wrap"><img loading="lazy" src="images/arrow-right_1.svg" alt="icon"
-                    class="read-more-arrow is-hovered"><img loading="lazy" src="images/arrow-right.svg" alt="icon"
-                    class="read-more-arrow"></div>
-              </a>
-            </div>
-          </div>
-          <div class="blog-card" data-aos="fade-up" data-aos-duration="800">
-            <div class="blog-thumbnail-wrap">
-              <a href="detail_blog.html" class="blog-thumbnail-link-block w-inline-block"><img loading="lazy" src="images/3.webp"
-                  alt="Thumbnail" class="blog-thumbnail"></a>
-            </div>
-            <div class="blog-category-wrap">
-              <a href="detail_blog-tag.html" class="text-sm link-block">Office</a>
-            </div>
-            <div class="blog-card-content-wrap">
-              <div class="blog-meta-data-wrap">
-                <div class="text-md">06 June 2024</div>
-                <div class="blog-meta-divider"></div>
-                <a href="detail_author.html" class="text-md link-block">Jacob Jones</a>
-              </div>
-              <a href="detail_blog.html" class="heading-dark link-block w-inline-block">
-                <h3 class="h6">The Benefits of Green Cleaning.</h3>
-              </a>
-              <a href="detail_blog.html" class="blog-card-link w-inline-block">
-                <div class="text-lg">Read More</div>
-                <div class="blog-card-link-icon-wrap"><img loading="lazy" src="images/arrow-right_1.svg" alt="icon"
-                    class="read-more-arrow is-hovered"><img loading="lazy" src="images/arrow-right.svg" alt="icon"
-                    class="read-more-arrow"></div>
-              </a>
-            </div>
-          </div>
-          <div class="blog-card" data-aos="fade-up" data-aos-duration="1000">
-            <div class="blog-thumbnail-wrap">
-              <a href="detail_blog.html" class="blog-thumbnail-link-block w-inline-block"><img loading="lazy" src="images/4.webp"
-                  alt="Thumbnail" class="blog-thumbnail"></a>
-            </div>
-            <div class="blog-category-wrap">
-              <a href="detail_blog-tag.html" class="text-sm link-block">Eco-friendly</a>
-            </div>
-            <div class="blog-card-content-wrap">
-              <div class="blog-meta-data-wrap">
-                <div class="text-md">06 June 2024</div>
-                <div class="blog-meta-divider"></div>
-                <a href="detail_author.html" class="text-md link-block">Johan Smith</a>
-              </div>
-              <a href="detail_blog.html" class="heading-dark link-block w-inline-block">
-                <h3 class="h6">How to Prepare Your Office for a Professional Cleaning Service.</h3>
-              </a>
-              <a href="detail_blog.html" class="blog-card-link w-inline-block">
-                <div class="text-lg">Read More</div>
-                <div class="blog-card-link-icon-wrap"><img loading="lazy" src="images/arrow-right_1.svg" alt="icon"
-                    class="read-more-arrow is-hovered"><img loading="lazy" src="images/arrow-right.svg" alt="icon"
-                    class="read-more-arrow"></div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="blog-description-wrap wdith-100" data-aos="fade-up" data-aos-duration="800">
-          <a data-wf--button--variant="base" href="blog.html" class="button w-inline-block">
-            <div>Browse All Blog</div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="contact-us-section">
-    <div class="container">
-      <div class="contact-us-layout">
-        <div class="contact-us-heading-block">
-          <div class="heading-dark">
-            <h2 class="h2 team-title" data-aos="fade-up">Get in touch with us </h2>
-          </div>
-          <div class="contact-description-wrap" data-aos="fade-up">
-            <div class="text-lg letter-spacing-0px">We would love to hear from you! Whether you have questions, need a
-              quote, or want to schedule a service, our team is here to help.</div>
-          </div>
-        </div>
-        <div class="contact-content-wrap">
-          <div class="contact-us-image-block" data-aos="fade-right">
-            <div class="contact-us-image-inner"><img src="images/smiling-holding-points.webp" loading="lazy"
-                sizes="(max-width: 1240px) 100vw, 1240px"
-                srcset="images/smiling-holding-points-p-500.webp 500w, images/smiling-holding-points-p-800.webp 800w, images/smiling-holding-points-p-1080.webp 1080w, images/smiling-holding-points.webp 1240w"
-                alt="" class="contact-us-image">
-              <div class="contact-info-block">
-                <a id="w-node-_8cb9b6d2-d280-8268-8077-d65193a9a09b-93a9a08c" href="tel:+4725357456"
-                  class="contact-info-card w-inline-block"><img src="images/phone.svg" loading="lazy" alt=""
-                    class="contact-info-card-icon">
-                  <div class="text-default">+4725 357 456</div>
-                </a>
-                <a id="w-node-_8cb9b6d2-d280-8268-8077-d65193a9a0a5-93a9a08c" href="https://maps.google.com/"
-                  target="_blank" class="contact-info-card w-inline-block"><img src="images/map-pin.svg" loading="lazy"
-                    alt="" class="contact-info-card-icon">
-                  <div class="contact-info">
-                    <div class="text-default">Google Map</div>
+              <div class="footer-vartical-divider"></div>
+              <div class="footer-content-right-block" data-aos="fade-up">
+                <div class="footer-links-block">
+                  <div class="footer-links-title">
+                    <div class="footer-title">Navigate</div>
                   </div>
-                </a>
-                <a id="w-node-_8cb9b6d2-d280-8268-8077-d65193a9a0a0-93a9a08c" href="mailto:hello@trydo.com"
-                  class="contact-info-card w-inline-block"><img src="images/mail.svg" loading="lazy" alt=""
-                    class="contact-info-card-icon">
-                  <div class="contact-info">
-                    <div class="text-default">hello@trydo.com</div>
+                  <div class="footer-link-wrap">
+                    <a
+                      href="index.html"
+                      aria-current="page"
+                      class="footer-link w-inline-block w--current"
+                    >
+                      <div class="footer-link-text">Home</div>
+                    </a>
+                    <a href="about.html" class="footer-link w-inline-block">
+                      <div class="footer-link-text">About Us</div>
+                    </a>
+                    <a href="services.html" class="footer-link w-inline-block">
+                      <div class="footer-link-text">Services</div>
+                    </a>
+                    <a href="pricing.html" class="footer-link w-inline-block">
+                      <div class="footer-link-text">Pricing</div>
+                    </a>
                   </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="contact-us-form-block" data-aos="fade-left">
-            <div class="contact-us-form-wrap w-form">
-              <form id="email-form" name="email-form" data-name="Email Form" method="get" class="contact-us-form"
-                data-wf-page-id="687fa5eeeaec53521e2b7e29" data-wf-element-id="8cb9b6d2-d280-8268-8077-d65193a9a0ac">
-                <div class="contact-form-inputs-wrap">
-                  <div class="contact-us-form-inner"><input
-                      class="form-input w-node-_8cb9b6d2-d280-8268-8077-d65193a9a0ae-93a9a08c w-input" maxlength="256"
-                      name="name-2" data-name="Name 2" placeholder="Name" type="text" id="name-2" required=""><input
-                      class="form-input w-node-_8cb9b6d2-d280-8268-8077-d65193a9a0af-93a9a08c w-input" maxlength="256"
-                      name="email-2" data-name="Email 2" placeholder="Email" type="email" id="email-2"
-                      required=""><input
-                      class="form-input w-node-_8cb9b6d2-d280-8268-8077-d65193a9a0b0-93a9a08c w-input" maxlength="256"
-                      name="Services-2" data-name="Services 2" placeholder="Services" type="text" id="Services-2"
-                      required=""><textarea required="" placeholder="Write Message..." maxlength="5000" id="field-2"
-                      name="field-2" data-name="Field 2"
-                      class="contact-text-area w-node-_8cb9b6d2-d280-8268-8077-d65193a9a0b1-93a9a08c w-input"></textarea><label
-                      id="w-node-_8cb9b6d2-d280-8268-8077-d65193a9a0b2-93a9a08c"
-                      class="w-checkbox checkbox-field"><input type="checkbox" id="checkbox-2" name="checkbox-2"
-                        data-name="Checkbox 2" required="" class="w-checkbox-input checkbox"><span
-                        class="text-md w-form-label" for="checkbox-2">I agree that my submitted data is being collected
-                        and stored.</span></label></div>
-                </div><input type="submit" data-wait="Please wait..." class="button w-button" value="Send Message">
-              </form>
-              <div class="w-form-done">
-                <div>Thank you! Your submission has been received!</div>
-              </div>
-              <div class="w-form-fail">
-                <div>Oops! Something went wrong while submitting the form.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="footer-section">
-    <div class="container">
-      <div class="footer-layout-block">
-        <div class="footer-content-wrap">
-          <div class="footer-content-inner">
-            <div class="footer-content-left-block" data-aos="fade-up">
-              <div id="w-node-b63e377a-1e03-4beb-cdb5-464bc0478fcc-c0478fc8" class="footer-about-block">
-                <a href="index.html" aria-current="page" class="brand w-nav-brand w--current"><img loading="lazy"
-                    src="images/Frame-1215874387.svg" alt="icon"></a>
-                <div class="footer-link-text">The Cleaning 128 is built for Industrial Cleaning Companies but is
-                  suitable for all that provide cleaning services.</div>
-              </div>
-            </div>
-            <div class="footer-vartical-divider"></div>
-            <div class="footer-content-right-block" data-aos="fade-up">
-              <div class="footer-links-block">
-                <div class="footer-links-title">
-                  <div class="footer-title">Navigate</div>
                 </div>
-                <div class="footer-link-wrap">
-                  <a href="index.html" aria-current="page" class="footer-link w-inline-block w--current">
-                    <div class="footer-link-text">Home</div>
-                  </a>
-                  <a href="about.html" class="footer-link w-inline-block">
-                    <div class="footer-link-text">About Us</div>
-                  </a>
-                  <a href="services.html" class="footer-link w-inline-block">
-                    <div class="footer-link-text">Services</div>
-                  </a>
-                  <a href="pricing.html" class="footer-link w-inline-block">
-                    <div class="footer-link-text">Pricing</div>
-                  </a>
+                <div class="footer-links-block">
+                  <div class="footer-links-title">
+                    <div class="footer-title">Other</div>
+                  </div>
+                  <div class="footer-link-wrap">
+                    <a href="faq.html" class="footer-link w-inline-block">
+                      <div class="footer-link-text">FAQ</div>
+                    </a>
+                    <a href="blog.html" class="footer-link w-inline-block">
+                      <div class="footer-link-text">Blog</div>
+                    </a>
+                    <a
+                      href="contact-us.html"
+                      class="footer-link w-inline-block"
+                    >
+                      <div class="footer-link-text">Contact Us</div>
+                    </a>
+                    <a href="404.html" class="footer-link w-inline-block">
+                      <div class="footer-link-text">404</div>
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div class="footer-links-block">
-                <div class="footer-links-title">
-                  <div class="footer-title">Other</div>
-                </div>
-                <div class="footer-link-wrap">
-                  <a href="faq.html" class="footer-link w-inline-block">
-                    <div class="footer-link-text">FAQ</div>
-                  </a>
-                  <a href="blog.html" class="footer-link w-inline-block">
-                    <div class="footer-link-text">Blog</div>
-                  </a>
-                  <a href="contact-us.html" class="footer-link w-inline-block">
-                    <div class="footer-link-text">Contact Us</div>
-                  </a>
-                  <a href="404.html" class="footer-link w-inline-block">
-                    <div class="footer-link-text">404</div>
-                  </a>
-                </div>
-              </div>
-              <div class="footer-links-block">
-                <div class="footer-links-title">
-                  <div class="footer-title">Legal</div>
-                </div>
-                <div class="footer-link-wrap">
-                  <a href="privacy-policy.html" class="footer-link w-inline-block">
-                    <div class="footer-link-text">Privacy Policy</div>
-                  </a>
-                  <a href="terms-and-conditions.html" class="footer-link w-inline-block">
-                    <div class="footer-link-text">Term of service</div>
-                  </a>
-                  <a href="style-guide.html" class="footer-link w-inline-block">
-                    <div class="footer-link-text">Style Guide</div>
-                  </a>
-                  <a href="licenses.html" class="footer-link w-inline-block">
-                    <div class="footer-link-text">Licenses</div>
-                  </a>
+                <div class="footer-links-block">
+                  <div class="footer-links-title">
+                    <div class="footer-title">Legal</div>
+                  </div>
+                  <div class="footer-link-wrap">
+                    <a
+                      href="privacy-policy.html"
+                      class="footer-link w-inline-block"
+                    >
+                      <div class="footer-link-text">Privacy Policy</div>
+                    </a>
+                    <a
+                      href="terms-and-conditions.html"
+                      class="footer-link w-inline-block"
+                    >
+                      <div class="footer-link-text">Term of service</div>
+                    </a>
+                    <a
+                      href="style-guide.html"
+                      class="footer-link w-inline-block"
+                    >
+                      <div class="footer-link-text">Style Guide</div>
+                    </a>
+                    <a href="licenses.html" class="footer-link w-inline-block">
+                      <div class="footer-link-text">Licenses</div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="footer-copyright-wrap">
-          <div class="footer-horizontal-divider"></div>
-          <div class="footer-copyright-block">
-            <div class="text-default">© Copyright 2025, All Rights Reserved by <a href="https://www.uimile.com/"
-                class="copyright-link">UiMile</a>, Powered By <a href="http://webflow.com/"
-                class="copyright-link">Webflow</a>
-            </div>
-            <div class="footer-social-links-block">
-              <a href="https://www.x.com/" target="_blank" class="footer-social-icon w-inline-block"><img
-                  src="images/Vector-6.svg" loading="lazy" alt="social icon" class="social-icon"></a>
-              <a href="https://www.facebook.com/" target="_blank" class="footer-social-icon w-inline-block"><img
-                  src="images/Group-4.svg" loading="lazy" alt="social icon" class="social-icon"></a>
-              <a href="https://www.instagram.com/" target="_blank" class="footer-social-icon w-inline-block"><img
-                  src="images/instagram-1-1.svg" loading="lazy" alt="social icon" class="social-icon"></a>
+          <div class="footer-copyright-wrap">
+            <div class="footer-horizontal-divider"></div>
+            <div class="footer-copyright-block">
+              <div class="text-default">
+                © Copyright 2025, All Rights Reserved by
+                <a href="https://www.uimile.com/" class="copyright-link"
+                  >UiMile</a
+                >, Powered By
+                <a href="http://webflow.com/" class="copyright-link">Webflow</a>
+              </div>
+              <div class="footer-social-links-block">
+                <a
+                  href="https://www.x.com/"
+                  target="_blank"
+                  class="footer-social-icon w-inline-block"
+                  ><img
+                    src="images/Vector-6.svg"
+                    loading="lazy"
+                    alt="social icon"
+                    class="social-icon"
+                /></a>
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="footer-social-icon w-inline-block"
+                  ><img
+                    src="images/Group-4.svg"
+                    loading="lazy"
+                    alt="social icon"
+                    class="social-icon"
+                /></a>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="footer-social-icon w-inline-block"
+                  ><img
+                    src="images/instagram-1-1.svg"
+                    loading="lazy"
+                    alt="social icon"
+                    class="social-icon"
+                /></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=687fa5eeeaec53521e2b7e3d"
-    type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-    crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    var swiper = new Swiper(".testimonial-slide", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      loop: true,
-      navigation: {
-        nextEl: '.swiper-next',
-        prevEl: '.swiper-prev',
-      },
-      breakpoints: {
-        // when window width is >= 320px
-        0: {
-          slidesPerView: 1,
+    </section>
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=687fa5eeeaec53521e2b7e3d"
+      type="text/javascript"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="js/webflow.js" type="text/javascript"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      var swiper = new Swiper(".testimonial-slide", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-next",
+          prevEl: ".swiper-prev",
         },
-        // when window width is >= 640px
-        650: {
-          slidesPerView: 2,
-          spaceBetween: 10, // Mobile: smaller gap
+        breakpoints: {
+          // when window width is >= 320px
+          0: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 640px
+          650: {
+            slidesPerView: 2,
+            spaceBetween: 10, // Mobile: smaller gap
+          },
+          // when window width is >= 782px
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 30, // Mobile: smaller gap
+          },
         },
-        // when window width is >= 782px
-        992: {
-          slidesPerView: 3,
-          spaceBetween: 30, // Mobile: smaller gap
-        }
-      }
-    });
+      });
 
-    AOS.init({
-      duration: 500,
-      once: true,   // 👈 only animate once
-      mirror: false // 👈 don't animate on scroll up
-    });
-  </script>
-</body>
-
+      AOS.init({
+        duration: 500,
+        once: true, // 👈 only animate once
+        mirror: false, // 👈 don't animate on scroll up
+      });
+    </script>
+  </body>
 </html>
