@@ -1407,6 +1407,10 @@ section{
   display: flex;
 }
 
+.blog-card-link:hover {
+  color: var(--colour--secondary-colour);
+}
+
 .blog-card-content-wrap {
   grid-column-gap: 12px;
   grid-row-gap: 12px;
@@ -1564,9 +1568,12 @@ section{
 .contact-text-area {
   border: 1px solid #0000;
   border-radius: 8px;
+  font-size: var(--font-size--text-default);
+  color: var(--colour--neutral-70);
   min-height: 166px;
   margin-bottom: 0;
   padding: 14px 28px;
+  font-size: 18px;
 }
 
 .contact-text-area:focus {
@@ -1576,7 +1583,6 @@ section{
 
 .contact-text-area::placeholder {
   color: var(--colour--neutral-60);
-  font-size: var(--font-size--h6-mobile);
   letter-spacing: .001em;
 }
 
