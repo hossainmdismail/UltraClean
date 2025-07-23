@@ -5582,10 +5582,7 @@ opacity: 0;
     }
 }
 
-.site-navbar .menu-block-wrapper {
-    flex-grow: 1;
-    align-items: center;
-}
+
 
 @media (min-width: 992px) {
     .site-navbar .menu-block-wrapper {
@@ -6523,4 +6520,7 @@ body[data-theme=dark] .reveal-header .nav-link-item,
     .menu-block-5 .megadropdown-center {
         transform: translate(-49%, 0) !important;
     }
+}
+.site-header .active{
+  color: var(--colour--primary) !important;
 }
