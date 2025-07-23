@@ -2451,7 +2451,23 @@ section{
   display: flex;
   overflow: hidden;
 }
-
+.blog-card-link{
+  transition: all 0.4s;
+}
+.blog-card-link-icon-wrap .yeallow{
+  position: absolute;
+  opacity: 0;
+}
+.blog-card-link-icon-wrap .blue{
+  position: absolute;
+  opacity: 1;
+}
+.blog-card-link:hover .yeallow{
+opacity: 1;
+}
+.blog-card-link:hover .blue{
+opacity: 0;
+}
 .copyright-link {
   color: var(--colour--accent-dark);
 }
@@ -5451,7 +5467,7 @@ section{
   Used In : All Page
 ---------------------------*/
 .site-header {
-    padding: 32px 0;
+    padding: 25px 0;
 
     background-color: white;
 }
@@ -5566,10 +5582,7 @@ section{
     }
 }
 
-.site-navbar .menu-block-wrapper {
-    flex-grow: 1;
-    align-items: center;
-}
+
 
 @media (min-width: 992px) {
     .site-navbar .menu-block-wrapper {
@@ -6507,4 +6520,7 @@ body[data-theme=dark] .reveal-header .nav-link-item,
     .menu-block-5 .megadropdown-center {
         transform: translate(-49%, 0) !important;
     }
+}
+.site-header .active{
+  color: var(--colour--primary) !important;
 }
